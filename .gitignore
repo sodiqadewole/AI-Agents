@@ -1,0 +1,40 @@
+# Ignore compiled binaries and build artifacts
+/build/
+/dist/
+*.o
+*.exe
+*.dll
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+*.bak
+
+# Ignore node_modules directory (common in JavaScript projects)
+node_modules/
+
+# Ignore editor-specific files and directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore operating system generated files
+.DS_Store
+Thumbs.db
+
+# Ignore sensitive configuration files (example)
+.env
+config.local.js
+
+# Ignore specific files by name (example)
+mysecretfile.txt
+
+# Negate a previously ignored pattern (example: ignore all logs except important.log)
+*.log
+!important.log
+
+# Ignore all files in a directory except a specific one (example)
+/data/*
+!/data/keep_this_file.txt
