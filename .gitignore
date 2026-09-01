@@ -38,3 +38,9 @@ mysecretfile.txt
 # Ignore all files in a directory except a specific one (example)
 /data/*
 !/data/keep_this_file.txt
+
+# Ignore Python virtual environments
+myvenv/
+venv/
+env/
+.venv/
